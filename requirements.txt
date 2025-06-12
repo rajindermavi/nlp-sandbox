@@ -1,0 +1,15 @@
+jupyter
+tqdm
+
+requests
+
+numpy
+
+scikit-learn
+torch
+
+polars
+pandas
+
+transformers
+
