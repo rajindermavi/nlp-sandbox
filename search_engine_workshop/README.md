@@ -1,5 +1,7 @@
 Search Engine Workshop
 
+[Based on this video.](https://github.com/alexeygrigorev/build-your-own-search-engine)
+
 Use vectorizers / embeddings to search for relevant documents.
 
 * (nb1) Get and explore data
