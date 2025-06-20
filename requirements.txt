@@ -1,12 +1,20 @@
+urllib3>=1.26.5,<3
+
 jupyter
+ipykernel
+notebook
 tqdm
 
 requests
+types-requests
 
 numpy
 
 scikit-learn
 torch
+
+elasticsearch==8.13.0
+openai
 
 polars
 pandas

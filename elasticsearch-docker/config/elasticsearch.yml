@@ -1,0 +1,18 @@
+cluster.name: "docker-cluster"
+node.name: "es-node"
+path.data: /usr/share/elasticsearch/data
+network.host: 0.0.0.0
+http.port: 9200
+
+# Minimal logging
+logger.level: info
+
+# Avoid memory-hungry features
+xpack.ml.enabled: false
+xpack.security.enabled: false
+xpack.watcher.enabled: false
+xpack.graph.enabled: false
+
+
+# sandbox environment Allow wildcard deletions
+action.destructive_requires_name: false
