@@ -14,6 +14,7 @@ scikit-learn
 torch
 
 elasticsearch==8.13.0
+qdrant-client[fastembed]>=1.14.2
 openai
 
 polars

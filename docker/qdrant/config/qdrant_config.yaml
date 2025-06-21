@@ -1,0 +1,14 @@
+log_level: WARN
+
+service:
+  http_port: 6333
+  grpc_port: 6334
+  max_workers: 2  # Limit threads
+
+storage:
+  performance:
+    mmap_threshold_kb: 131072       # ~128MB before memory mapping
+    flush_interval_sec: 10          # Less frequent disk writes
+
+cluster:
+  enabled: false  # Standalone mode
