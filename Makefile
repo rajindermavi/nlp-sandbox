@@ -1,6 +1,9 @@
-.PHONY: es-up es-down es-clean qdrant-up qdrant-down qdrant-clean up down clean
+.PHONY: es-pull es-up es-down es-clean qdrant-pull qdrant-up qdrant-down qdrant-clean up down clean
 
 # ElasticSearch
+es-pull:
+	docker compose -f docker/elasticsearch/docker-compose.yml pull
+
 es-up:
 	docker compose -f docker/elasticsearch/docker-compose.yml up -d
 
@@ -11,6 +14,9 @@ es-clean:
 	docker compose -f docker/elasticsearch/docker-compose.yml down -v
 
 # Qdrant
+qdrant-pull:
+	docker compose -f docker/qdrant/docker-compose.yml pull
+
 qdrant-up:
 	docker compose -f docker/qdrant/docker-compose.yml up -d
 

@@ -7,14 +7,16 @@ tqdm
 
 requests
 types-requests
+randomname
+
 
 numpy
-
 scikit-learn
 torch
 
+minsearch
 elasticsearch==8.13.0
-qdrant-client[fastembed]>=1.14.2
+qdrant-client[fastembed]>=1.14.1
 openai
 
 polars
