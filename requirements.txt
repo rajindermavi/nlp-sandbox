@@ -9,18 +9,21 @@ requests
 types-requests
 randomname
 
-
 numpy
-scikit-learn
-torch
-
-minsearch
-elasticsearch==8.13.0
-qdrant-client[fastembed]>=1.14.1
-openai
 
 polars
 pandas
 
+scikit-learn
+torch
 transformers
+
+cognee
+dlt
+dlt[duckdb]
+elasticsearch==8.13.0
+kuzu
+minsearch
+openai
+qdrant-client[fastembed]>=1.14.1
 
