@@ -1,5 +1,7 @@
 urllib3>=1.26.5,<3
 
+dotenv
+
 jupyter
 ipykernel
 notebook
@@ -26,4 +28,4 @@ kuzu
 minsearch
 openai
 qdrant-client[fastembed]>=1.14.1
-
+neo4j
