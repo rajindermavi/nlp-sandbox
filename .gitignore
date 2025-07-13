@@ -171,7 +171,8 @@ qdrant_storage/
 
 # artifacts data
 *.duckdb
-*/artifacts/*
+artifacts
 sources_db/
-dlt/dlt
+*/dlt/dlt
+*/dlt/.artifacts
 os 
