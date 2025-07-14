@@ -176,3 +176,5 @@ sources_db/
 */dlt/dlt
 */dlt/.artifacts
 os 
+storage.sqlite
+.lock
