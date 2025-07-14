@@ -23,6 +23,7 @@ transformers
 cognee
 dlt
 dlt[duckdb]
+dlt[qdrant]
 elasticsearch==8.13.0
 kuzu
 minsearch
